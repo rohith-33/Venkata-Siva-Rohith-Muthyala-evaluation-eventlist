@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#addEventButton {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50; /* Yellow green */
+    color: #fff; /* White */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#addEventButton:hover {
+    background-color: #45a049; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+}
+
+th {
+    background-color: #008cba; 
+    color: #fff; /* White */
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0; 
+}
+
+.action-btn {
+    padding: 8px 15px;
+    background-color: #c94c4c;
+    color: #fff; /* White */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: #b83f3f; 
+}
